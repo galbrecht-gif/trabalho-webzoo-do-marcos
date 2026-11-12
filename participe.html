@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça os programas de educação ambiental e participe do WebZoo.">
+  <link rel="icon" href="assets/logo/webzoo_logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/participe.js" defer></script>
+  <script src="js/cep.js" defer></script>
+  <title>Participe | WebZoo</title>
+</head>
+<body id="topo">
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+  <header>
+    <a href="index.html" aria-label="WebZoo - Página inicial">
+      <img src="assets/logo/webzoo_logo.png" alt="WebZoo - Página inicial">
+    </a>
+    <button type="button" id="btn-menu" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+      <span aria-hidden="true">☰</span>
+    </button>
+    <nav id="menu-principal" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="animais.html">Animais</a></li>
+        <li><a href="visite.html">Visite</a></li>
+        <li><a href="participe.html" aria-current="page">Participe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <h1>Faça parte do WebZoo</h1>
+    <p>Cadastre-se para receber novidades, sugerir conteúdos ou agendar uma visita com a sua escola. Preservar a natureza é uma tarefa coletiva, e toda participação é bem-vinda.</p>
+
+    <section aria-labelledby="programas-educacao">
+      <h2 id="programas-educacao">Programas de Educação Ambiental</h2>
+      <article>
+        <h3>Zoo Escola</h3>
+        <p>Visitas guiadas para turmas do ensino fundamental e médio, com roteiro adaptado à idade dos estudantes.</p>
+      </article>
+      <article>
+        <h3>Guardiões da Fauna</h3>
+        <p>Oficinas mensais para crianças e adolescentes sobre os animais brasileiros e seus ambientes.</p>
+      </article>
+      <article>
+        <h3>Noite no Zoo</h3>
+        <p>Passeio noturno monitorado para conhecer os animais de hábitos noturnos.</p>
+      </article>
+      <article>
+        <h3>Professor Parceiro</h3>
+        <p>Materiais gratuitos e encontros de formação para educadores.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="cadastro">
+      <h2 id="cadastro">Formulário de Cadastro</h2>
+      <p id="aviso-privacidade">Site acadêmico. Não informe dados pessoais reais. Este formulário é uma demonstração: o cadastro não é enviado nem armazenado. Ao consultar o CEP, ele é enviado ao ViaCEP. Nome, e-mail e assunto são obrigatórios.</p>
+      <form id="formulario-cadastro" novalidate aria-describedby="aviso-privacidade">
+        <fieldset>
+          <legend>Seus dados</legend>
+          <p>
+            <label for="nome">Nome completo (obrigatório)</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required aria-describedby="erro-nome">
+            <span id="erro-nome"></span>
+          </p>
+          <p>
+            <label for="email">E-mail (obrigatório)</label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="erro-email">
+            <span id="erro-email"></span>
+          </p>
+          <p>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" autocomplete="tel" maxlength="15" aria-describedby="erro-telefone">
+            <span id="erro-telefone"></span>
+          </p>
+          <p>
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep" inputmode="numeric" autocomplete="postal-code" maxlength="9" aria-describedby="erro-cep status-cep">
+            <span id="erro-cep"></span>
+            <span id="status-cep" aria-live="polite"></span>
+          </p>
+          <p>
+            <label for="rua">Rua</label>
+            <input type="text" id="rua" name="rua" autocomplete="address-line1" aria-describedby="erro-rua">
+            <span id="erro-rua"></span>
+          </p>
+          <p>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro" aria-describedby="erro-bairro">
+            <span id="erro-bairro"></span>
+          </p>
+          <p>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" autocomplete="address-level2" aria-describedby="erro-cidade">
+            <span id="erro-cidade"></span>
+          </p>
+          <p>
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" name="estado" autocomplete="address-level1" maxlength="2" aria-describedby="erro-estado">
+            <span id="erro-estado"></span>
+          </p>
+          <p>
+            <label for="numero">Número</label>
+            <input type="text" id="numero" name="numero" autocomplete="address-line2" aria-describedby="erro-numero">
+            <span id="erro-numero"></span>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Sobre sua participação</legend>
+          <p>
+            <label for="assunto">Assunto (obrigatório)</label>
+            <select id="assunto" name="assunto" required aria-describedby="erro-assunto">
+              <option value="">Selecione uma opção</option>
+              <option value="novidades">Receber novidades</option>
+              <option value="visita-escolar">Visita escolar</option>
+              <option value="sugerir-conteudo">Sugerir conteúdo</option>
+              <option value="outro">Outro</option>
+            </select>
+            <span id="erro-assunto"></span>
+          </p>
+          <p>
+            <label for="animal-favorito">Animal favorito</label>
+            <select id="animal-favorito" name="animal-favorito" aria-describedby="erro-animal-favorito">
+              <option value="">Selecione um animal</option>
+              <option value="onca-pintada">Onça-pintada</option>
+              <option value="tucano-toco">Tucano-toco</option>
+              <option value="capivara">Capivara</option>
+            </select>
+            <span id="erro-animal-favorito"></span>
+          </p>
+          <p>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" aria-describedby="contador-mensagem erro-mensagem"></textarea>
+            <span id="contador-mensagem" aria-live="polite">0 caracteres</span>
+            <span id="erro-mensagem"></span>
+          </p>
+          <p>
+            <input type="checkbox" id="aceite" name="aceite" aria-describedby="erro-aceite">
+            <label for="aceite">Aceito receber comunicações do WebZoo.</label>
+            <span id="erro-aceite"></span>
+          </p>
+        </fieldset>
+        <button type="submit" disabled>Enviar cadastro</button>
+        <noscript><p>Ative o JavaScript para usar este formulário de demonstração.</p></noscript>
+        <p id="feedback-cadastro" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section aria-labelledby="como-ajudar">
+      <h2 id="como-ajudar">Como você pode ajudar</h2>
+      <ul>
+        <li>Descarte o lixo nos locais adequados.</li>
+        <li>Observe os animais sem tocar ou oferecer alimentos.</li>
+        <li>Respeite a vegetação e os espaços de preservação.</li>
+        <li>Nunca compre animais silvestres sem origem legal.</li>
+        <li>Reduza o uso de plásticos descartáveis.</li>
+        <li>Economize água e energia.</li>
+        <li>Ao dirigir em estradas próximas a áreas naturais, reduza a velocidade.</li>
+        <li>Denuncie maus-tratos e tráfico de animais aos órgãos ambientais.</li>
+        <li>Compartilhe o que você aprendeu com familiares e amigos.</li>
+      </ul>
+    </section>
+  </main>
+
+  <p><a href="#topo">Voltar ao topo</a></p>
+  <footer>
+    <address>
+      Zoológico de São Paulo | Av. Miguel Estéfano, 4241 - Água Funda, São Paulo - SP | CEP 04301-905 | Telefone (fictício): (11) 5555-0142 | E-mail (fictício): contato@webzoo.example
+    </address>
+    <p>WebZoo - Educação ambiental | Projeto acadêmico e fictício, sem fins comerciais.</p>
+    <p>Desenvolvido por: [Seu Nome]</p>
+    <p>Imagens ilustrativas criadas por IA para a atividade.</p>
+    <p>Dados de CEP e previsão do tempo fornecidos por: ViaCEP e Open-Meteo.</p>
+  </footer>
+</body>
+</html>

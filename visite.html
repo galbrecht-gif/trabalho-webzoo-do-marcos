@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Planeje sua visita ao Zoológico de São Paulo: horários, ingressos, endereço, previsão do tempo e dicas.">
+  <link rel="icon" href="assets/logo/webzoo_logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/cep.js" defer></script>
+  <script src="js/clima.js" defer></script>
+  <title>Visite | WebZoo</title>
+</head>
+<body id="topo">
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+  <header>
+    <a href="index.html" aria-label="WebZoo - Página inicial">
+      <img src="assets/logo/webzoo_logo.png" alt="WebZoo - Página inicial">
+    </a>
+    <button type="button" id="btn-menu" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+      <span aria-hidden="true">☰</span>
+    </button>
+    <nav id="menu-principal" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="animais.html">Animais</a></li>
+        <li><a href="visite.html" aria-current="page">Visite</a></li>
+        <li><a href="participe.html">Participe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <h1>Planeje sua visita</h1>
+    <p>Um bom passeio começa antes de sair de casa. Confira os horários, veja como chegar e consulte a previsão do tempo para escolher o melhor dia.</p>
+
+    <section aria-labelledby="horarios">
+      <h2 id="horarios">Horário de funcionamento</h2>
+      <ul>
+        <li>Terça a sexta-feira: das <time datetime="09:00">9h</time> às <time datetime="17:00">17h</time>.</li>
+        <li>Sábados, domingos e feriados: das <time datetime="09:00">9h</time> às <time datetime="18:00">18h</time>.</li>
+        <li>Segunda-feira: fechado para manutenção.</li>
+      </ul>
+      <p>A entrada é permitida até uma hora antes do fechamento.</p>
+    </section>
+
+    <section aria-labelledby="ingressos">
+      <h2 id="ingressos">Ingressos</h2>
+      <table>
+        <caption>Valores dos ingressos do Zoológico de São Paulo</caption>
+        <thead>
+          <tr><th scope="col">Categoria</th><th scope="col">Valor</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Inteira</th><td>R$ 60,00</td></tr>
+          <tr><th scope="row">Meia-entrada (estudantes, professores e pessoas com 60 anos ou mais)</th><td>R$ 30,00</td></tr>
+          <tr><th scope="row">Crianças de até 4 anos</th><td>Gratuito</td></tr>
+          <tr><th scope="row">Grupos escolares agendados</th><td>R$ 20,00 por estudante</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="como-chegar">
+      <h2 id="como-chegar">Como chegar</h2>
+      <address>Av. Miguel Estéfano, 4241 - Água Funda, São Paulo - SP.</address>
+      <ul>
+        <li>De transporte público: há linhas de ônibus que partem de estações de metrô da região.</li>
+        <li>De carro: o local conta com estacionamento pago.</li>
+      </ul>
+      <form id="formulario-cep-visita">
+        <fieldset>
+          <legend>Informe o seu CEP e descubra de onde você vai partir</legend>
+          <label for="cep-visita">Digite o seu CEP</label>
+          <input type="text" id="cep-visita" name="cep" inputmode="numeric" autocomplete="postal-code" maxlength="9" aria-describedby="ajuda-cep-visita erro-cep-visita resultado-cep-visita">
+          <small id="ajuda-cep-visita">Digite os 8 números do CEP.</small>
+          <span id="erro-cep-visita"></span>
+          <button type="button" id="btn-buscar-cep-visita">Buscar endereço</button>
+          <p id="resultado-cep-visita" aria-live="polite"></p>
+        </fieldset>
+      </form>
+    </section>
+
+    <section aria-labelledby="previsao-tempo">
+      <h2 id="previsao-tempo">Como está o tempo no zoológico?</h2>
+      <p id="previsao-webzoo" aria-live="polite">Ative o JavaScript para consultar a previsão do tempo.</p>
+      <p>Dados meteorológicos: Open-Meteo.</p>
+    </section>
+
+    <section aria-labelledby="dicas-passeio">
+      <h2 id="dicas-passeio">Dicas para o passeio</h2>
+      <ul>
+        <li>Chegue cedo: pela manhã os animais costumam estar mais ativos.</li>
+        <li>Use roupas leves e calçados confortáveis.</li>
+        <li>Leve uma garrafa de água reutilizável.</li>
+        <li>Reserve pelo menos três horas para a visita.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="regras-visita">
+      <h2 id="regras-visita">Regras da visita</h2>
+      <ul>
+        <li>Não alimente os animais.</li>
+        <li>Não bata nos vidros nem atire objetos nos recintos.</li>
+        <li>Fale baixo perto dos recintos.</li>
+        <li>Não utilize flash ao fotografar.</li>
+        <li>Descarte o lixo nas lixeiras de coleta seletiva.</li>
+        <li>Animais de estimação não são permitidos.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="acessibilidade-parque">
+      <h2 id="acessibilidade-parque">Acessibilidade no parque</h2>
+      <ul>
+        <li>Rotas acessíveis para cadeiras de rodas e carrinhos de bebê.</li>
+        <li>Empréstimo de cadeiras de rodas na entrada, mediante disponibilidade.</li>
+        <li>Sanitários acessíveis e fraldários.</li>
+        <li>Atendimento prioritário nas bilheterias.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="perguntas-frequentes">
+      <h2 id="perguntas-frequentes">Perguntas Frequentes</h2>
+      <details>
+        <summary>Posso levar alimentos?</summary>
+        <p>Sim. Há áreas de piquenique para lanches trazidos de casa. Não é permitido oferecer alimentos aos animais.</p>
+      </details>
+      <details>
+        <summary>O zoológico abre em dias de chuva?</summary>
+        <p>Sim, o funcionamento é normal. Algumas atividades ao ar livre podem ser suspensas em caso de tempestade.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo dura a visita?</summary>
+        <p>Em média, de três a quatro horas para percorrer os principais recintos.</p>
+      </details>
+      <details>
+        <summary>Posso fotografar os animais?</summary>
+        <p>Sim, sem o uso de flash e sem ultrapassar as barreiras de segurança.</p>
+      </details>
+      <details>
+        <summary>Há onde guardar mochilas?</summary>
+        <p>Sim, há guarda-volumes próximo à entrada, mediante disponibilidade.</p>
+      </details>
+      <details>
+        <summary>Como agendar a visita de uma escola?</summary>
+        <p>Preencha o formulário da página Participe e selecione a opção "Visita escolar".</p>
+      </details>
+    </section>
+  </main>
+
+  <p><a href="#topo">Voltar ao topo</a></p>
+  <footer>
+    <address>
+      Zoológico de São Paulo | Av. Miguel Estéfano, 4241 - Água Funda, São Paulo - SP | CEP 04301-905 | Telefone (fictício): (11) 5555-0142 | E-mail (fictício): contato@webzoo.example
+    </address>
+    <p>WebZoo - Educação ambiental | Projeto acadêmico e fictício, sem fins comerciais.</p>
+    <p>Desenvolvido por: [Seu Nome]</p>
+    <p>Imagens ilustrativas criadas por IA para a atividade.</p>
+    <p>Dados de CEP e previsão do tempo fornecidos por: ViaCEP e Open-Meteo.</p>
+  </footer>
+</body>
+</html>

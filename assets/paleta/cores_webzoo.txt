@@ -1,0 +1,9 @@
+PALETA WEBZOO
+
+Verde floresta: #163E2E - Marca e destaques
+Verde folha: #4F7D45 - Elementos de apoio
+Ocre: #D99A29 - Pequenos detalhes
+Areia clara: #F4F1E8 - Fundos
+Carvão: #25332B - Textos
+
+Use pelo menos três cores desta paleta na página, com boa leitura entre textos e fundos.

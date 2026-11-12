@@ -1,0 +1,566 @@
+WEBZOO - TEXTOS DE APOIO
+Atividade prática de Front-End | Site multipáginas com integração de APIs
+
+COMO USAR ESTE ARQUIVO
+Você pode copiar, resumir ou adaptar estes textos. Eles estão organizados por página
+sugerida, mas a distribuição final do conteúdo é uma decisão sua.
+Não é obrigatório usar tudo. É obrigatório que nenhuma página fique com texto de
+preenchimento (lorem ipsum) ou com conteúdo incompleto.
+O WebZoo é um projeto fictício criado para fins didáticos. Horários, valores,
+telefones e e-mails deste arquivo são fictícios.
+Os dados sobre os animais são um resumo educativo. Se acrescentar novas informações,
+confira-as em uma fonte confiável antes de publicar.
+
+
+======================================================================
+1. TEXTOS COMUNS A TODAS AS PÁGINAS
+======================================================================
+
+NOME DO SITE
+WebZoo
+
+SLOGAN (escolha um)
+Conhecer para preservar.
+A natureza do Brasil a um clique de distância.
+Cada espécie tem uma história. Venha descobrir.
+
+ITENS DO MENU (sugestão)
+Início
+Animais
+Visite
+Participe
+
+LINK DE ACESSIBILIDADE
+Pular para o conteúdo principal
+
+RODAPÉ
+WebZoo - Educação ambiental
+Projeto acadêmico e fictício, sem fins comerciais.
+Desenvolvido por: [seu nome]
+Imagens ilustrativas criadas por IA para a atividade.
+Dados de CEP, clima e demais informações externas fornecidos por: [nome das APIs utilizadas]
+
+ENDEREÇO (use a tag adequada para dados de contato)
+Zoológico de São Paulo
+Av. Miguel Estéfano, 4241 - Água Funda
+São Paulo - SP
+CEP 04301-905
+Telefone (fictício): (11) 5555-0142
+E-mail (fictício): contato@webzoo.example
+
+COORDENADAS APROXIMADAS (úteis para APIs de clima)
+Latitude: -23.65
+Longitude: -46.62
+Fuso horário: America/Sao_Paulo
+
+
+======================================================================
+2. PÁGINA INICIAL
+======================================================================
+
+TÍTULO PRINCIPAL
+WebZoo: conhecer para preservar
+
+TEXTO DE DESTAQUE (hero)
+Explore a fauna brasileira, descubra como vivem os animais e aprenda o que cada um de
+nós pode fazer para proteger os ambientes naturais.
+Imagem sugerida: assets/imagens/floresta.png
+
+BOTÕES DE CHAMADA
+Conheça os animais
+Planeje sua visita
+
+SOBRE O WEBZOO
+O WebZoo é uma plataforma de educação ambiental do Zoológico de São Paulo. Seu objetivo
+é apresentar animais e seus ambientes, compartilhar curiosidades e incentivar o cuidado
+com a natureza.
+
+Criada para aproximar o público da fauna brasileira, a plataforma reúne fichas de
+espécies e orientações para quem deseja visitar o zoológico. O conteúdo é pensado para estudantes, famílias e professores, com linguagem
+simples e informações confiáveis.
+
+O zoológico fica em uma área de Mata Atlântica preservada dentro da cidade de São Paulo.
+Além de receber visitantes, uma instituição como essa tem um papel importante na
+pesquisa, na reprodução de espécies ameaçadas e na formação de cidadãos mais atentos ao
+meio ambiente.
+
+MISSÃO
+Despertar o interesse pela vida selvagem e transformar curiosidade em atitude de
+preservação.
+
+VISÃO
+Ser uma referência digital em educação ambiental, acessível a qualquer pessoa, em
+qualquer dispositivo.
+
+VALORES
+Respeito à vida: os animais vêm em primeiro lugar.
+Conhecimento: informação clara, correta e com fonte.
+Inclusão: conteúdo que todas as pessoas consigam acessar e compreender.
+Responsabilidade: cada atitude individual conta para a conservação.
+
+O QUE VOCÊ ENCONTRA AQUI
+Animais: fichas com nome científico, alimentação, habitat e curiosidades.
+Visite: horários, ingressos, como chegar e a previsão do tempo para o seu passeio.
+Participe: cadastro para receber novidades e agendar visitas escolares.
+
+WEBZOO EM NÚMEROS (dados fictícios da plataforma)
+3 animais em destaque
+4 programas de educação ambiental
+100% do conteúdo gratuito
+
+VOCÊ SABIA? (frases curtas para cards ou carrossel)
+A onça-pintada é o maior felino das Américas.
+A capivara é o maior roedor do mundo.
+O bico do tucano-toco ajuda a controlar a temperatura do corpo.
+O lobo-guará não vive em alcateias: é um animal solitário.
+O tamanduá-bandeira não tem dentes.
+O mico-leão-dourado só existe na natureza em um único estado do Brasil.
+
+
+======================================================================
+3. PÁGINA ANIMAIS
+======================================================================
+
+TÍTULO
+Animais do WebZoo
+
+INTRODUÇÃO
+O Brasil é um dos países com maior diversidade de animais do planeta. Nesta página você
+conhece algumas das espécies mais marcantes da nossa fauna. Use os filtros para
+encontrar animais por bioma ou por tipo de alimentação.
+
+OPÇÕES DE FILTRO (sugestão)
+Todos | Mamíferos | Aves
+Todos | Carnívoro | Herbívoro | Onívoro | Insetívoro
+Todos | Amazônia | Cerrado | Pantanal | Mata Atlântica
+
+LEGENDA DO ESTADO DE CONSERVAÇÃO (classificação global da Lista Vermelha da IUCN)
+Pouco preocupante: a espécie não corre risco imediato.
+Quase ameaçada: pode se tornar ameaçada em um futuro próximo.
+Vulnerável: enfrenta risco alto de extinção na natureza.
+Em perigo: enfrenta risco muito alto de extinção na natureza.
+
+----------------------------------------------------------------------
+ANIMAIS COM IMAGEM FORNECIDA
+----------------------------------------------------------------------
+
+ONÇA-PINTADA
+Nome científico: Panthera onca
+Classe: Mamífero
+Alimentação: Carnívoro
+Biomas: Amazônia, Pantanal, Cerrado, Mata Atlântica e Caatinga
+Estado de conservação: Quase ameaçada
+Imagem: assets/imagens/onca_pintada.png
+
+Descrição curta (para cards):
+A onça-pintada é um felino de pelagem marcada por manchas. É carnívora e pode ser
+encontrada em ambientes como florestas e áreas do Pantanal.
+
+Descrição completa:
+A onça-pintada é o maior felino das Américas e o terceiro maior do mundo, atrás apenas
+do tigre e do leão. Seu corpo é forte e compacto, e a pelagem amarelada é coberta por
+manchas em forma de rosetas. O desenho dessas manchas é único em cada animal, como uma
+impressão digital.
+
+É um animal solitário e de hábitos principalmente noturnos e crepusculares. Cada onça
+ocupa um território amplo, que percorre em busca de alimento. Diferentemente da maioria
+dos felinos, gosta de água e é uma excelente nadadora.
+
+No topo da cadeia alimentar, a onça-pintada caça animais como capivaras, queixadas,
+jacarés e veados. Sua mordida é uma das mais fortes entre os grandes felinos. Por
+controlar a população de outras espécies, ela ajuda a manter o equilíbrio dos
+ambientes onde vive.
+
+Curiosidades:
+Um adulto costuma pesar entre 55 e 100 kg; no Pantanal, alguns machos passam disso.
+A gestação dura pouco mais de três meses e nascem de um a quatro filhotes.
+Existem onças de pelagem escura, chamadas de onças-pretas. As rosetas continuam lá,
+visíveis sob a luz certa.
+
+Principais ameaças:
+Perda e fragmentação do habitat, caça e conflitos com a criação de gado.
+
+----------------------------------------------------------------------
+
+TUCANO-TOCO
+Nome científico: Ramphastos toco
+Classe: Ave
+Alimentação: Onívoro
+Biomas: Cerrado, Pantanal e bordas de matas
+Estado de conservação: Pouco preocupante
+Imagem: assets/imagens/tucano_toco.png
+
+Descrição curta (para cards):
+O tucano-toco é uma ave conhecida pelo bico grande e colorido. Alimenta-se de frutos e
+também de pequenos animais. Pode ser encontrado em áreas como o Cerrado.
+
+Descrição completa:
+O tucano-toco é a maior espécie de tucano. Tem plumagem preta, garganta branca e um
+bico alaranjado com uma mancha escura na ponta, que pode chegar a cerca de 20 cm de
+comprimento. Ao contrário dos outros tucanos, prefere áreas abertas, como o Cerrado, em
+vez de florestas fechadas.
+
+Apesar do tamanho, o bico é leve: é formado por queratina e tem o interior cheio de
+pequenas cavidades. Ele serve para alcançar frutos em galhos finos, descascar alimentos
+e também para regular a temperatura do corpo, liberando calor nos dias quentes.
+
+Alimenta-se principalmente de frutos, mas também come insetos, ovos e filhotes de
+outras aves. Ao engolir frutos e espalhar as sementes por onde passa, o tucano-toco
+ajuda a regenerar a vegetação.
+
+Curiosidades:
+Mede cerca de 55 a 65 cm de comprimento.
+Faz ninho em ocos de árvores e a fêmea costuma botar de dois a quatro ovos.
+Para dormir, vira a cabeça e apoia o bico sobre as costas.
+
+Principais ameaças:
+Captura para o comércio ilegal de animais silvestres e perda de habitat.
+
+----------------------------------------------------------------------
+
+CAPIVARA
+Nome científico: Hydrochoerus hydrochaeris
+Classe: Mamífero
+Alimentação: Herbívoro
+Biomas: presente em quase todo o Brasil, sempre perto da água
+Estado de conservação: Pouco preocupante
+Imagem: assets/imagens/capivara.png
+
+Descrição curta (para cards):
+A capivara é um roedor que vive em grupos e costuma permanecer perto de rios e lagos. É
+herbívora e se alimenta de plantas.
+
+Descrição completa:
+A capivara é o maior roedor do mundo. Um adulto pode passar de um metro de comprimento
+e pesar entre 35 e 65 kg. Tem corpo robusto, pelagem marrom e patas com pequenas
+membranas entre os dedos, que ajudam na natação.
+
+É um animal semiaquático: passa boa parte do dia dentro ou perto da água, onde se
+refresca e se protege de predadores. Os olhos, as orelhas e as narinas ficam no alto da
+cabeça, o que permite à capivara permanecer quase toda submersa e ainda assim observar
+o ambiente. Consegue ficar alguns minutos debaixo d'água sem respirar.
+
+Vive em grupos familiares, geralmente com dez a vinte indivíduos. Alimenta-se de
+gramíneas e plantas aquáticas e tem hábitos mais ativos no início da manhã e no fim da
+tarde.
+
+Curiosidades:
+Seu nome vem do tupi e significa "comedor de capim".
+A gestação dura cerca de cinco meses.
+Os filhotes já nascem com pelos e de olhos abertos.
+
+Convivência com as pessoas:
+A capivara se adaptou bem a áreas urbanas com rios e lagos. Ao encontrá-la, mantenha
+distância e não ofereça alimentos.
+
+----------------------------------------------------------------------
+ANIMAIS EXTRAS (opcionais, sem imagem fornecida)
+----------------------------------------------------------------------
+O uso destes animais é opcional. Para usá-los, você precisará de imagens. Elas podem vir de uma API, ser
+geradas por IA ou obtidas em um banco de imagens livre. Em qualquer caso, informe a
+origem no site e escreva um texto alternativo adequado.
+
+LOBO-GUARÁ
+Nome científico: Chrysocyon brachyurus
+Classe: Mamífero
+Alimentação: Onívoro
+Biomas: Cerrado
+Estado de conservação: Quase ameaçada
+
+Descrição curta (para cards):
+O lobo-guará é o maior canídeo da América do Sul. Tem pernas longas, pelagem alaranjada
+e vive nos campos do Cerrado.
+
+Descrição completa:
+Com pernas longas e finas, pelagem alaranjada e uma crina escura no dorso, o lobo-guará
+é inconfundível. As pernas compridas ajudam o animal a enxergar por cima do capim alto
+dos campos onde vive.
+
+Apesar do nome, não forma alcateias: é solitário e tímido, e evita o contato com
+pessoas. Sua alimentação é variada e inclui pequenos animais e muitos frutos. Um dos
+preferidos é a lobeira, uma planta do Cerrado que recebeu esse nome justamente por
+causa dele.
+
+Curiosidades:
+Um adulto mede cerca de 90 cm de altura no ombro e pesa entre 20 e 30 kg.
+É o animal que estampa a cédula de 200 reais.
+
+Principais ameaças:
+Destruição do Cerrado, atropelamentos em rodovias e doenças transmitidas por cães.
+
+----------------------------------------------------------------------
+
+ARARA-AZUL-GRANDE
+Nome científico: Anodorhynchus hyacinthinus
+Classe: Ave
+Alimentação: Herbívoro
+Biomas: Pantanal, Cerrado e Amazônia
+Estado de conservação: Vulnerável
+
+Descrição curta (para cards):
+A arara-azul-grande é a maior espécie de arara. Tem plumagem azul intensa e um bico
+forte, capaz de quebrar cocos.
+
+Descrição completa:
+Com cerca de um metro do bico à ponta da cauda, a arara-azul-grande é a maior entre as
+araras e os papagaios. A plumagem é azul-cobalto, com detalhes amarelos ao redor dos
+olhos e na base do bico.
+
+Seu bico poderoso quebra os cocos de palmeiras como o acuri e a bocaiuva, base da sua
+alimentação. Costuma viver em casais ou pequenos grupos e os pares permanecem juntos
+por muitos anos. No Pantanal, faz ninho principalmente em ocos de uma árvore chamada
+manduvi.
+
+Principais ameaças:
+Tráfico de animais silvestres, queimadas e perda das árvores usadas para os ninhos.
+
+----------------------------------------------------------------------
+
+TAMANDUÁ-BANDEIRA
+Nome científico: Myrmecophaga tridactyla
+Classe: Mamífero
+Alimentação: Insetívoro
+Biomas: Cerrado, Pantanal, Amazônia e Mata Atlântica
+Estado de conservação: Vulnerável
+
+Descrição curta (para cards):
+O tamanduá-bandeira tem focinho longo, cauda em forma de bandeira e se alimenta de
+formigas e cupins.
+
+Descrição completa:
+O tamanduá-bandeira é fácil de reconhecer: focinho comprido, cauda longa e peluda e uma
+faixa preta que atravessa o corpo. Não tem dentes. Para se alimentar, abre formigueiros
+e cupinzeiros com as garras e captura os insetos com a língua, fina e pegajosa, que
+pode chegar a cerca de 60 cm.
+
+Em um único dia, consegue comer milhares de formigas e cupins. Como fica pouco tempo em
+cada ninho, não chega a destruí-lo. É um animal solitário, de visão fraca e olfato
+muito apurado.
+
+Curiosidades:
+O filhote passa os primeiros meses de vida agarrado às costas da mãe.
+Para dormir, o tamanduá se cobre com a própria cauda.
+
+Principais ameaças:
+Queimadas, atropelamentos e perda de habitat.
+
+----------------------------------------------------------------------
+
+MICO-LEÃO-DOURADO
+Nome científico: Leontopithecus rosalia
+Classe: Mamífero
+Alimentação: Onívoro
+Biomas: Mata Atlântica
+Estado de conservação: Em perigo
+
+Descrição curta (para cards):
+O mico-leão-dourado é um pequeno primata de pelagem alaranjada que vive apenas na Mata
+Atlântica do estado do Rio de Janeiro.
+
+Descrição completa:
+Pequeno e ágil, o mico-leão-dourado tem pelagem alaranjada e uma juba ao redor do
+rosto, que lembra a de um leão. Pesa pouco mais de meio quilo e vive em grupos
+familiares, nos quais todos ajudam a cuidar dos filhotes.
+
+Alimenta-se de frutos, insetos, néctar e pequenos animais. Na natureza, a espécie só
+existe em trechos de Mata Atlântica do estado do Rio de Janeiro.
+
+Um símbolo da conservação:
+O mico-leão-dourado já esteve muito perto de desaparecer. Programas de reprodução em
+zoológicos, a reintrodução de animais na natureza e a recuperação de áreas de floresta
+permitiram que a população voltasse a crescer. É o animal que estampa a cédula de 20
+reais.
+
+Principais ameaças:
+Fragmentação da floresta e doenças, como a febre amarela.
+
+
+======================================================================
+4. PÁGINA VISITE
+======================================================================
+
+TÍTULO
+Planeje sua visita
+
+INTRODUÇÃO
+Um bom passeio começa antes de sair de casa. Confira os horários, veja como chegar e
+consulte a previsão do tempo para escolher o melhor dia.
+
+HORÁRIO DE FUNCIONAMENTO (fictício)
+Terça a sexta-feira: das 9h às 17h
+Sábados, domingos e feriados: das 9h às 18h
+Segunda-feira: fechado para manutenção
+A entrada é permitida até uma hora antes do fechamento.
+
+INGRESSOS (valores fictícios)
+Inteira: R$ 60,00
+Meia-entrada (estudantes, professores e pessoas com 60 anos ou mais): R$ 30,00
+Crianças de até 4 anos: gratuito
+Grupos escolares agendados: R$ 20,00 por estudante
+
+COMO CHEGAR
+Endereço: Av. Miguel Estéfano, 4241 - Água Funda, São Paulo - SP
+De transporte público: há linhas de ônibus que partem de estações de metrô da região.
+De carro: o local conta com estacionamento pago.
+Informe o seu CEP e descubra de onde você vai partir.
+
+TEXTOS PARA A CONSULTA DE CEP
+Rótulo do campo: Digite o seu CEP
+Texto de ajuda: Somente números, 8 dígitos.
+Botão: Buscar endereço
+Carregando: Buscando endereço...
+Sucesso: Você vai sair de [logradouro], [bairro] - [cidade]/[UF].
+CEP inválido: Digite um CEP com 8 números.
+CEP não encontrado: Não encontramos esse CEP. Confira os números e tente novamente.
+Falha na consulta: Não foi possível consultar o CEP agora. Tente novamente em instantes.
+
+TEXTOS PARA A PREVISÃO DO TEMPO
+Título: Como está o tempo no zoológico?
+Carregando: Consultando a previsão do tempo...
+Sucesso: Agora: [temperatura] °C. Máxima de [máxima] °C e mínima de [mínima] °C.
+Chance de chuva: [valor]%.
+Falha na consulta: A previsão do tempo não está disponível no momento.
+Crédito: Dados meteorológicos: [nome da API].
+
+DICAS CONFORME O CLIMA (use com os dados da API)
+Dia quente: use protetor solar e boné e leve uma garrafa de água.
+Dia chuvoso: leve capa de chuva. Alguns animais ficam mais ativos depois da chuva.
+Dia frio: leve um agasalho. Vários animais gostam de tomar sol nas manhãs frias.
+Tempo firme: ótimo dia para percorrer todas as trilhas com calma.
+
+DICAS PARA O PASSEIO
+Chegue cedo: pela manhã os animais costumam estar mais ativos.
+Use roupas leves e calçados confortáveis.
+Leve uma garrafa de água reutilizável.
+Reserve pelo menos três horas para a visita.
+
+REGRAS DA VISITA
+Não alimente os animais.
+Não bata nos vidros nem atire objetos nos recintos.
+Fale baixo perto dos recintos.
+Não utilize flash ao fotografar.
+Descarte o lixo nas lixeiras de coleta seletiva.
+Animais de estimação não são permitidos.
+
+ACESSIBILIDADE NO PARQUE
+Rotas acessíveis para cadeiras de rodas e carrinhos de bebê.
+Empréstimo de cadeiras de rodas na entrada, mediante disponibilidade.
+Sanitários acessíveis e fraldários.
+Atendimento prioritário nas bilheterias.
+
+PERGUNTAS FREQUENTES
+Posso levar alimentos?
+Sim. Há áreas de piquenique para lanches trazidos de casa. Não é permitido oferecer
+alimentos aos animais.
+
+O zoológico abre em dias de chuva?
+Sim, o funcionamento é normal. Algumas atividades ao ar livre podem ser suspensas em
+caso de tempestade.
+
+Quanto tempo dura a visita?
+Em média, de três a quatro horas para percorrer os principais recintos.
+
+Posso fotografar os animais?
+Sim, sem o uso de flash e sem ultrapassar as barreiras de segurança.
+
+Há onde guardar mochilas?
+Sim, há guarda-volumes próximo à entrada, mediante disponibilidade.
+
+Como agendar a visita de uma escola?
+Preencha o formulário da página Participe e selecione a opção "Visita escolar".
+
+
+======================================================================
+5. PÁGINA PARTICIPE
+======================================================================
+
+TÍTULO
+Faça parte do WebZoo
+
+INTRODUÇÃO
+Cadastre-se para receber novidades, sugerir conteúdos ou agendar uma visita com a sua
+escola. Preservar a natureza é uma tarefa coletiva, e toda participação é bem-vinda.
+
+PROGRAMAS DE EDUCAÇÃO AMBIENTAL (fictícios)
+Zoo Escola
+Visitas guiadas para turmas do ensino fundamental e médio, com roteiro adaptado à
+idade dos estudantes.
+
+Guardiões da Fauna
+Oficinas mensais para crianças e adolescentes sobre os animais brasileiros e seus
+ambientes.
+
+Noite no Zoo
+Passeio noturno monitorado para conhecer os animais de hábitos noturnos.
+
+Professor Parceiro
+Materiais gratuitos e encontros de formação para educadores.
+
+CAMPOS DO FORMULÁRIO (sugestão)
+Nome completo
+E-mail
+Telefone
+CEP
+Rua (preenchida automaticamente pela API)
+Bairro (preenchido automaticamente pela API)
+Cidade (preenchida automaticamente pela API)
+Estado (preenchido automaticamente pela API)
+Número
+Assunto: Receber novidades | Visita escolar | Sugerir conteúdo | Outro
+Animal favorito: (lista com os animais do site)
+Mensagem
+Aceito receber comunicações do WebZoo.
+Botão: Enviar cadastro
+
+MENSAGENS DE VALIDAÇÃO
+Campo vazio: Preencha este campo.
+Nome curto: Informe o nome completo.
+E-mail inválido: Informe um e-mail válido, como nome@exemplo.com.
+CEP inválido: Digite um CEP com 8 números.
+Assunto não selecionado: Selecione um assunto.
+Mensagem curta: Escreva uma mensagem com pelo menos 10 caracteres.
+
+MENSAGEM DE SUCESSO
+Cadastro recebido! Obrigado por participar do WebZoo, [nome].
+Este formulário é demonstrativo: nenhum dado foi enviado ou armazenado.
+
+AVISO DE PRIVACIDADE
+Site acadêmico. Não informe dados pessoais reais.
+
+COMO VOCÊ PODE AJUDAR
+Descarte o lixo nos locais adequados.
+Observe os animais sem tocar ou oferecer alimentos.
+Respeite a vegetação e os espaços de preservação.
+Nunca compre animais silvestres sem origem legal.
+Reduza o uso de plásticos descartáveis.
+Economize água e energia.
+Ao dirigir em estradas próximas a áreas naturais, reduza a velocidade.
+Denuncie maus-tratos e tráfico de animais aos órgãos ambientais.
+Compartilhe o que você aprendeu com familiares e amigos.
+
+
+======================================================================
+6. TEXTOS DE INTERFACE
+======================================================================
+
+MENU HAMBÚRGUER (textos para leitores de tela)
+Abrir menu
+Fechar menu
+
+BOTÕES E LINKS
+Saiba mais sobre [nome do animal]
+Voltar ao topo
+Ver todos os animais
+Limpar filtros
+
+FILTRO SEM RESULTADOS
+Nenhum animal encontrado com esses filtros.
+
+PÁGINA NÃO ENCONTRADA (opcional)
+Ops! Esta trilha não leva a lugar nenhum.
+A página que você procura não existe ou mudou de endereço.
+Voltar para o início
+
+CRÉDITOS
+Imagens ilustrativas criadas por IA para a atividade.
+Projeto desenvolvido na disciplina de Front-End - SENAI "Comendador Santoro Mirone".
